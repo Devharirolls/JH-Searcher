@@ -18,28 +18,3 @@ const App = () => (
 );
 
 export default App;
-
-// background: rgb(2,0,36);
-// background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,105,223,0.9697128851540616) 50%, rgba(0,212,255,1) 100%);
-
-
-// import { BrowserRouter,Routes,Route } from "react-router-dom";
-// import { Box } from "@mui/material";
-// import { Navbar,SearchFeed,Feed,VideoDetail,ChannelDetail} from "./components";
-
-// const App = () => (
-//     <BrowserRouter>
-//         <Box sx={{backgroundColor:'#000'}}>
-//             <Navbar/>
-//             <Routes>
-//                 <Route path="/" exact element={<Feed />} />
-//                 <Route path="/video/:id" element={<VideoDetail />}/>
-//                 <Route path="/channel/:id" element={<ChannelDetail />}/>
-//                 <Route path="/search/:searchTerm" element={<SearchFeed />}/>
-//             </Routes>
-//         </Box>
-//     </BrowserRouter>
-//   )
-
-
-// export default App;
